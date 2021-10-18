@@ -4,17 +4,9 @@ import NavigationBar from '../pages/NavigationBar/NavigationBar';
 
 const ServiceDetail = () => {
     const {serviceId} = useParams();
-  const [serviceDetails, setServiceDetails] = useState([]);
-  useEffect(() => {
-      fetch('/servicedetail.json')
-      .then(res => res.json())
-      .then(data => setServiceDetails(data.service))
-  },[])
-
-useEffect(()=> {
-   const findService =  serviceDetails.find(service => service.login.id === serviceId)
-    console.log(findService);
-},[serviceDetails])
+ useEffect(()=> {
+     const url = `https://raw.githubusercontent.com/Programming-Hero-Web-Course3/healthcare-related-website-bannadas/main/public/servicedetail.json?token=AUVDZ7SOLAY4BLJ5KC34BO3BNUQBS`
+ },[])
     return (
         <div>
             <NavigationBar></NavigationBar>
