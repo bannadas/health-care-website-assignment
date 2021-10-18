@@ -10,9 +10,10 @@ import {
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/Home/Home";
-import Service from "./pages/Service/Service";
+
 import ServiceDetail from "./ServiceDetail/ServiceDetail";
 import About from "./AboutUs/About";
+import Login from "./Login/Login";
 
 
 function App() {
@@ -32,6 +33,9 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
+          {/* <Route path="/login">
+            <Login></Login>
+          </Route> */}
         </Switch>
       </Router>
       
