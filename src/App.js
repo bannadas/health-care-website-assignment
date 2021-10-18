@@ -14,6 +14,7 @@ import Home from "./pages/Home/Home";
 import ServiceDetail from "./ServiceDetail/ServiceDetail";
 import About from "./AboutUs/About";
 import Login from "./Login/Login";
+import Register from "./Register/Register";
 
 
 function App() {
@@ -33,9 +34,12 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-          {/* <Route path="/login">
+          <Route path="/login">
             <Login></Login>
-          </Route> */}
+          </Route>
+          <Route path="/register">
+            <Register></Register>
+          </Route>
         </Switch>
       </Router>
       

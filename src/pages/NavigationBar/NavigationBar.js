@@ -18,6 +18,7 @@ const NavigationBar = () => {
                     <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
                     
                     <Nav.Link as={HashLink} to="/about">About Us</Nav.Link>
+                    <Nav.Link as={HashLink} to="/login">Log In</Nav.Link>
                      
                    
                 </Navbar.Collapse>
