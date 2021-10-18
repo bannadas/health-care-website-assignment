@@ -1,11 +1,9 @@
-console.log(process.env);
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_API_KEY,
-    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_APP_ID,
-};
-
+    apiKey: "AIzaSyD_t4b1amjFUAUmAxHDeC9CKck3_GU5C2g",
+    authDomain: "medical-center-assignment.firebaseapp.com",
+    projectId: "medical-center-assignment",
+    storageBucket: "medical-center-assignment.appspot.com",
+    messagingSenderId: "934572642605",
+    appId: "1:934572642605:web:dc8eead31a0dc01343c3a4"
+  };
 export default firebaseConfig;
