@@ -1,0 +1,25 @@
+import React from 'react';
+import NavigationBar from '../NavigationBar/NavigationBar';
+import './Banner.css'
+import bannerImage from '../../Images/header-image.png'
+
+const Banner = () => {
+    return (
+        <div>
+            <NavigationBar></NavigationBar>
+            <div className="banner">
+            <div className="banner-text">
+            <h1>Something</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deleniti consequuntur reiciendis assumenda perspiciatis temporibus provident molestias ex! Quia rem aliquid voluptates consectetur veniam aspernatur cumque fugit quidem sed consequuntur.</p>
+            <button className="get-appoinment-btn">Get Appoinment</button>
+            </div>
+            <div className="banner-image">
+                <img src={bannerImage} alt="" />
+            </div>
+            </div>
+            
+        </div>
+    );
+};
+
+export default Banner;

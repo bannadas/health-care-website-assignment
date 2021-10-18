@@ -1,0 +1,46 @@
+[
+    {
+        "id" : 1,
+        "name" : "Cardiology",
+        "image" : "https://media.istockphoto.com/photos/anatomy-of-human-heart-on-ecg-medical-background-picture-id1250937342?b=1&k=20&m=1250937342&s=170667a&w=0&h=y97fgGpwAX-IyDwIM6jKmfs8fydc4QQnQ_HVMxaejlQ=",
+        "description" : "We offer complete heathcare to individuals.Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. "
+
+    },
+    {
+        "id" : 2,
+        "name" : "Dental Care",
+        "image" : "https://media.istockphoto.com/photos/tooth-with-dental-mirror-picture-id1136317796?b=1&k=20&m=1136317796&s=170667a&w=0&h=n9F6A4tg6fTicSXbm1g9w7xR50mdYxuESTFYpyAkD-g=",
+        "description" : "We offer complete heathcare to individuals.Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. "
+
+    },
+    {
+        "id" : 3,
+        "name" : "Eye Care",
+        "image" : "https://media.istockphoto.com/photos/portrait-of-a-happy-mature-male-patient-undergoing-vision-check-with-picture-id1279371084?b=1&k=20&m=1279371084&s=170667a&w=0&h=aO1OXUY24iwfqAtl4RbV1Par_J8-Tpqb1AyOtNDqzT0=",
+        "description" : "We offer complete heathcare to individuals.Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. "
+
+    },
+    {
+        "id" : 4,
+        "name" : "Neurology",
+        "image" : "https://media.istockphoto.com/photos/neuron-system-disease-picture-id1284442724?b=1&k=20&m=1284442724&s=170667a&w=0&h=5g78bJy_voJ_nYayzSC0lPvPbCyB8GNhFrgtChc2qJM=",
+        "description" : "We offer complete heathcare to individuals.Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. "
+
+    },
+    {
+        "id" : 5,
+        "name" : "Urology",
+        "image" : "https://media.istockphoto.com/photos/doctor-explaining-urological-problems-picture-id482858211?b=1&k=20&m=482858211&s=170667a&w=0&h=2UWYdNClemyK8Sb-a5mjL4aClqaPoZDtUTXI8xTL6vg=",
+        "description" : "We offer complete heathcare to individuals.Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. "
+
+    },
+    {
+        "id" : 6,
+        "name" : "Body Surgery",
+        "image" : "https://media.istockphoto.com/photos/putting-their-skills-to-good-use-picture-id593305618?b=1&k=20&m=593305618&s=170667a&w=0&h=gQ-xQr2SQi9N96j0JUHUCgxim-pkoBMxMep1MeBHGr8=",
+        "description" : "We offer complete heathcare to individuals.Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. "
+
+    }
+    
+    
+]
