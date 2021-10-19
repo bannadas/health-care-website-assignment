@@ -1,9 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NavigationBar from '../pages/NavigationBar/NavigationBar';
+import './Register.css'
 
 const Register = () => {
     return (
-        <div className="login-form">
+        <div>
+            <NavigationBar></NavigationBar>
+        <div className="register-form">
+           
             <div>
                 <h2>Register: Create Account</h2>
                 <form onSubmit="">
@@ -20,6 +25,7 @@ const Register = () => {
                 <button className="btn-regular">Google Sign In</button>
             </div>
         </div>
+    </div>
     );
 };
 

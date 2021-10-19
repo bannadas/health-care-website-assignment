@@ -20,6 +20,8 @@ const Services = () => {
                         service={service}
                     ></Service>)
                 }
+
+                
             </div>
         </div>
     );
