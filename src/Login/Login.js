@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { Link,useLocation } from 'react-router-dom';
-import useAuth from '../hooks/useAuth';
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-
-
+import { Link } from 'react-router-dom';
 import NavigationBar from '../pages/NavigationBar/NavigationBar';
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+
+
+
+
 import './Login.css'
 
 const Login = () => {
-    const {signInUsingGoogle} = useAuth();
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
     const [error,setError] = useState('');
@@ -16,37 +16,56 @@ const Login = () => {
     const auth = getAuth();
 
     const handleEmailChange = e =>{
-        console.log(e.target.value);
-     }
-     const handlePassChange = e =>{
-       setPassword(e.target.value);
-     }
-
-    const handleLogin = () =>{
-        console.log('login');
+       setEmail(e.target.value);
+    }
+    const handlePassChange = e =>{
+      setPassword(e.target.value);
     }
 
+    const handleRegistration = e =>{
+        e.preventDefault();
+        console.log(email,password);
+        if(password.length < 6){
+            setError('password must be at least 6 characters long');
+            return;
+        }
+        if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
+            setError('Password Must contain 2 upper case');
+            return;
+          }
+          
+        signInWithEmailAndPassword(auth,email,password)
+        .then(result => {
+            const user = result.user;
+            console.log(user);
+            setError('');
+        })
+        .catch(error => {
+            setError(error.message)
+        })
+       
+    }
     return (
         <div>
             <NavigationBar></NavigationBar>
 
-            
-        <div className="login-form">
+
+        <div className="register-form">
+           
             <div>
-                <h2>Login</h2>
-                <form onSubmit={handleLogin}>
+                <h2>LogIn</h2>
+                <form onSubmit={handleRegistration}>
                     <input onBlur={handleEmailChange} type="email" name="" id="" placeholder="Your Email" />
                     <br />
-                    <input onBlur={handlePassChange} type="password" name="" id="" />
+                    <input onBlur={handlePassChange} type="password" name="" id="" placeholder="Your Password" />
                     <br />
+                    <div className="mb-3 text-danger">{error}</div>
+                    <br/>
                     <input type="submit" value="Submit" />
                 </form>
-                <p>new to this website? <Link to="/register">Create Account</Link></p>
-                <div>-------or----------</div>
-                <button onClick={signInUsingGoogle}
-                    className="btn-regular"
-                    
-                >Google Sign In</button>
+                <p>New Here?<Link to="/register">Create an account</Link></p>
+                <div>----------or-------------</div>
+                <button className="btn-regular">Google Sign In</button>
             </div>
         </div>
     </div>
