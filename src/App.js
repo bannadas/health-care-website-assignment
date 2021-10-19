@@ -16,6 +16,8 @@ import About from "./AboutUs/About";
 import Login from "./Login/Login";
 import Register from "./Register/Register";
 import AuthProvider from "./context/AuthProvider";
+import PrivateRoute from "./PrivateRoute/PrivateRoute";
+import DoctorDetails from "./pages/DoctorDetails/DoctorDetails";
 
 
 function App() {
@@ -30,12 +32,15 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/service/:serviceId">
+          <PrivateRoute path="/service/:serviceId">
             <ServiceDetail></ServiceDetail>
-          </Route>
+          </PrivateRoute>
           <Route path="/about">
             <About></About>
           </Route>
+          <PrivateRoute path="/doctordetails">
+            <DoctorDetails></DoctorDetails>
+          </PrivateRoute>
           <Route path="/login">
             <Login></Login>
           </Route>

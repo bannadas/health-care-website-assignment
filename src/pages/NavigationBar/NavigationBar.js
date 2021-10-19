@@ -22,6 +22,7 @@ const NavigationBar = () => {
                     <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
                     
                     <Nav.Link as={HashLink} to="/about">About Us</Nav.Link>
+                    <Nav.Link as={HashLink} to="/doctordetails">Doctor Details</Nav.Link>
                    
                     {user.email && <span style={{ color: 'white' }}>Hello {user.displayName} </span>}
                 {
