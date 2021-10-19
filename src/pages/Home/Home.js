@@ -3,6 +3,7 @@ import { Card, CardGroup, Carousel, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Services from '../../Services/Services';
 import Banner from '../Banner/Banner';
+import Footer from '../Footer/Footer';
 import './Home.css'
 
 
@@ -88,6 +89,7 @@ const Home = () => {
   </Card>
 </CardGroup>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
