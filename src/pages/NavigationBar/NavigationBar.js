@@ -15,11 +15,12 @@ const NavigationBar = () => {
     <>
         <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" >
             <Container>
-                <Navbar.Brand href="#home">Medical</Navbar.Brand>
+               
                 
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
+                    
                     
                     <Nav.Link as={HashLink} to="/about">About Us</Nav.Link>
                     <Nav.Link as={HashLink} to="/doctordetails">Doctor Details</Nav.Link>

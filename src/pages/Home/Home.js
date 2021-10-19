@@ -47,8 +47,7 @@ const Home = () => {
             </div>
 
 
-            <div className="container">
-                <h1>Our Service Price</h1>
+            <div className="container my-5">
                 <CardGroup>
   
   <Card>
@@ -56,7 +55,7 @@ const Home = () => {
     <Card.Body>
       <Card.Title>Find Our Department Here</Card.Title>
       <Card.Text>
-      <ul>
+      
       <Link to="/home"><li>Neurology Department</li></Link>
       <Link to="/home"><li>Dental Department</li></Link>
       <Link to="/home"><li>Cardiology Department</li></Link>
@@ -64,7 +63,7 @@ const Home = () => {
       <Link to="/home"><li>Eye Department</li></Link>
       <Link to="/home"><li>Surgery Department</li></Link>
        
-    </ul>
+    
       </Card.Text>
     </Card.Body>
    
@@ -75,14 +74,14 @@ const Home = () => {
     <Card.Body>
       <Card.Title>Consult With Specialist</Card.Title>
       <Card.Text>
-      <ul>
+     
       <Link to="/home"><li>Child Specialist</li></Link>
       <Link to="/home"><li>Heart Specialist</li></Link>
       <Link to="/home"><li>Dentist Specialist</li></Link>
       <Link to="/home"><li>Eye Specialist</li></Link>
       <Link to="/home"><li>Surgery Specialist</li></Link>
        
-    </ul>
+   
       </Card.Text>
     </Card.Body>
     

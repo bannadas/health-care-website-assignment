@@ -3,7 +3,7 @@ import Service from '../pages/Service/Service'
 import './Services.css'
 
 const Services = () => {
-    const [services, setServices] = useState([])
+    const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('/data.json')
             .then(res => res.json())

@@ -18,6 +18,7 @@ import Register from "./Register/Register";
 import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import DoctorDetails from "./pages/DoctorDetails/DoctorDetails";
+import Service from "./pages/Service/Service";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
+         
           <PrivateRoute path="/service/:serviceId">
             <ServiceDetail></ServiceDetail>
           </PrivateRoute>
