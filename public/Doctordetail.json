@@ -1,0 +1,79 @@
+[
+  {
+      "name":"PROF. (DR) M A AHBAB",
+      "qualification":"MBBS FCPS MD",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+       
+        "phone":"01726336453",
+        "speciality":"Specialist in Medicine, Diabetes & Liver Diseases"
+  },
+  {
+      "name":"PROF. DR. FAISAL AHMED",
+      "qualification":"MBBS, BCS(Health) FCPS (Medicine) ",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+       
+        "phone":"01726666453",
+        "speciality":"Specalist in Medicine"
+  },
+  {
+      "name":"17laskar PROF. DR, MD. AMINUR RAHMAN ",
+      "qualification":"MBBS, DCM, MCPS (Medicine), MD (Cardiology",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+       
+        "phone":"01726338953",
+        "speciality":"Cardiology (Heart) Specialist"
+  },
+  {
+      "name":"34ajay DR. AJOY KUMAR DUTTA",
+      "qualification":"MBBS, MD (Cardiology),NICVD",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+       
+        "phone":"01826336453",
+        "speciality":"Diabetes, Medicine & Heart Specialist"
+  },
+  {
+      "name":" PROF. DR. SYED ALAMGIR",
+      "qualification":"MBBS, MCPS (Medicine), MD (Gastroenterology)",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+       
+        "phone":"01926336453",
+        "speciality":"Medicine, Liver & Gastroenterology Specialist "
+  },
+  {
+      "name":"20khaled DR. M.KHALED MAHMUD",
+      "qualification":"MBBS, MS(Surgery)",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+       
+        "phone":"01756336453",
+        "speciality":"Geneal & Laparoscopic Surgeon"
+  },
+  {
+      "name":"taposh Dr. Tapos Singha",
+      "qualification":"MBBS, MS(Surgery)",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+       
+        "phone":"01726336453",
+        "speciality":"Geneal & Laparoscopic Surgeon"
+
+        
+  },
+  {
+      "name":"salam PROF. DR. MD. ABDUS SALAM",
+      "qualification":"MBBS FCPS MD",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+       
+        "phone":"01776336453",
+        "speciality":"Ophthalmologist"
+  },
+  {
+      "name":"sajjad  DR. S. M. SAJJADUL ",
+      "qualification":"MBBS, DO (DU),FICS",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+       
+        "phone":"01726336453",
+        "speciality":"Ophthalmologist"
+  }
+  
+  
+
+]
