@@ -13,9 +13,9 @@ const Banner = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deleniti consequuntur reiciendis assumenda perspiciatis temporibus provident molestias ex! Quia rem aliquid voluptates consectetur veniam aspernatur cumque fugit quidem sed consequuntur.</p>
             <button className="get-appoinment-btn">Get Appoinment</button>
             </div>
-            <div className="banner-image">
-                <img src={bannerImage} alt="" />
-            </div>
+             
+                <img className="banner-image" src={bannerImage} alt="" />
+            
             </div>
             
         </div>

@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link,useLocation } from 'react-router-dom';
 import useAuth from '../hooks/useAuth';
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 
 
 import NavigationBar from '../pages/NavigationBar/NavigationBar';
@@ -8,8 +9,23 @@ import './Login.css'
 
 const Login = () => {
     const {signInUsingGoogle} = useAuth();
-    // const location = useLocation();
-    // console.log(location.state?.from);
+    const [email,setEmail] = useState('');
+    const [password,setPassword] = useState('');
+    const [error,setError] = useState('');
+
+    const auth = getAuth();
+
+    const handleEmailChange = e =>{
+        console.log(e.target.value);
+     }
+     const handlePassChange = e =>{
+       setPassword(e.target.value);
+     }
+
+    const handleLogin = () =>{
+        console.log('login');
+    }
+
     return (
         <div>
             <NavigationBar></NavigationBar>
@@ -18,10 +34,10 @@ const Login = () => {
         <div className="login-form">
             <div>
                 <h2>Login</h2>
-                <form>
-                    <input type="email" name="" id="" placeholder="Your Email" />
+                <form onSubmit={handleLogin}>
+                    <input onBlur={handleEmailChange} type="email" name="" id="" placeholder="Your Email" />
                     <br />
-                    <input type="password" name="" id="" />
+                    <input onBlur={handlePassChange} type="password" name="" id="" />
                     <br />
                     <input type="submit" value="Submit" />
                 </form>

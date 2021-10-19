@@ -11,12 +11,29 @@ const ServiceDetail = () => {
 //    console.log(Service)
 const [details,setDetails] = useState({});
 
-useEffect(()=>{
-    console.log(data.find(d=>d.id == 1));
-    const serviceDetail = data.find(detail => detail.id == serviceId)
-    setDetails(serviceDetail)
-    console.log(details)
+useEffect(() =>{
+    fetch('http://localhost:3000/data.json')
+    .then(res => res.json())
+    .then(data => {
+        const serviceDetail = data.find(detail => detail.id == serviceId)
+        setDetails(serviceDetail)
+    })
 },[])
+
+
+
+
+
+
+
+
+
+// useEffect(()=>{
+//     console.log(data.find(d=>d.id == 1));
+//     const serviceDetail = data.find(detail => detail.id == serviceId)
+//     setDetails(serviceDetail)
+//     console.log(details)
+// },[])
 
 
 
