@@ -21,14 +21,27 @@ const Register = () => {
     }
 
     const handleRegistration = e =>{
-        console.log('reg added');
-        
+        e.preventDefault();
+        console.log(email,password);
+        if(password.length < 6){
+            setError('password must be at least 6 characters long');
+            return;
+        }
+        if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
+            setError('Password Must contain 2 upper case');
+            return;
+          }
+          
         createUserWithEmailAndPassword(auth,email,password)
         .then(result => {
             const user = result.user;
             console.log(user);
+            setError('');
         })
-        e.preventDefault();
+        .catch(error => {
+            setError(error.message)
+        })
+       
     }
     return (
         <div>

@@ -19,18 +19,7 @@ useEffect(()=>{
 },[])
 
 
-// useEffect(() => {
-//     fetch('http://localhost:3000/data.json')
-//     .then(res => res.json())
-//     .then(data => {
-//         setDetails(data)
-//         console.log(details
-//         )
-//         const serviceDetail = details.find(detail => detail.id === serviceId)
-//     setDetails(ServiceDetail)
-//     })
-    
-// },[serviceId])
+
     return (
         <div>
             <NavigationBar></NavigationBar>
