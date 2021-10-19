@@ -1,8 +1,10 @@
 import React, { useState,useEffect } from 'react';
+import { useParams } from 'react-router';
 
 import NavigationBar from '../pages/NavigationBar/NavigationBar';
 
 const ServiceDetail = () => {
+    const {serviceId} = useParams();
    
     return (
         <div>
