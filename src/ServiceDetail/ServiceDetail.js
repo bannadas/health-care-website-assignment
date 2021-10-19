@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import useAuth from '../hooks/useAuth';
-import Service from '../pages/Service/Service';
+
 import data from '../Data/Detail.json'
+import NavigationBar from '../pages/NavigationBar/NavigationBar';
 
 const ServiceDetail = () => {
     const {serviceId} = useParams();
@@ -33,6 +33,7 @@ useEffect(()=>{
 // },[serviceId])
     return (
         <div>
+            <NavigationBar></NavigationBar>
             <h1>details</h1>
             
             <img src={details.image} alt="" />

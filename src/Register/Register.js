@@ -9,7 +9,7 @@ import './Register.css'
 const Register = () => {
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
-    // const [error,setError] = useState('');
+    const [error,setError] = useState('');
 
     const auth = getAuth();
 
@@ -21,7 +21,7 @@ const Register = () => {
     }
 
     const handleRegistration = e =>{
-        console.log(email,password);
+        console.log('reg added');
         
         createUserWithEmailAndPassword(auth,email,password)
         .then(result => {
@@ -44,7 +44,7 @@ const Register = () => {
                     <br />
                     <input onBlur={handlePassChange} type="password" name="" id="" placeholder="Your Password" />
                     <br />
-                    {/* <div className="mb-3 text-danger">{error}</div> */}
+                    <div className="mb-3 text-danger">{error}</div>
                     <br/>
                     <input type="submit" value="Submit" />
                 </form>
