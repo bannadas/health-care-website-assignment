@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../hooks/useAuth';
 
-import useFirebase from '../hooks/useFirebase';
+
 import NavigationBar from '../pages/NavigationBar/NavigationBar';
 import './Login.css'
 
 const Login = () => {
-    const {user,signInUsingGoogle} = useFirebase();
+    const {signInUsingGoogle} = useAuth();
     return (
         <div>
             <NavigationBar></NavigationBar>

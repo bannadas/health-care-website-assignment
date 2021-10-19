@@ -15,11 +15,13 @@ import ServiceDetail from "./ServiceDetail/ServiceDetail";
 import About from "./AboutUs/About";
 import Login from "./Login/Login";
 import Register from "./Register/Register";
+import AuthProvider from "./context/AuthProvider";
 
 
 function App() {
   return (
     <div>
+      <AuthProvider>
       <Router>
         <Switch>
           <Route exact path="/">
@@ -42,6 +44,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      </AuthProvider>
       
     </div>
   );
