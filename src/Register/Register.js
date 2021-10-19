@@ -63,7 +63,7 @@ const Register = () => {
                 </form>
                 <p>Already have an account? <Link to="/login">Login</Link></p>
                 <div>----------or-------------</div>
-                <button className="btn-regular">Google Sign In</button>
+                
             </div>
         </div>
     </div>

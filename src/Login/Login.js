@@ -7,8 +7,10 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 
 import './Login.css'
+import useAuth from '../hooks/useAuth';
 
 const Login = () => {
+    const {signInUsingGoogle} = useAuth();
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
     const [error,setError] = useState('');
@@ -65,7 +67,7 @@ const Login = () => {
                 </form>
                 <p>New Here?<Link to="/register">Create an account</Link></p>
                 <div>----------or-------------</div>
-                <button className="btn-regular">Google Sign In</button>
+                <button onClick={signInUsingGoogle} className="btn-regular">Google Sign In</button>
             </div>
         </div>
     </div>
