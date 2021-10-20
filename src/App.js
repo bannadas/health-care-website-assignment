@@ -19,6 +19,7 @@ import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import DoctorDetails from "./pages/DoctorDetails/DoctorDetails";
 import Service from "./pages/Service/Service";
+import Error from "./pages/Error/Error";
 
 
 function App() {
@@ -48,6 +49,9 @@ function App() {
           </Route>
           <Route path="/register">
             <Register></Register>
+          </Route>
+          <Route path="*"> 
+            <Error></Error>
           </Route>
         </Switch>
       </Router>

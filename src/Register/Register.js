@@ -7,9 +7,11 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import './Register.css'
 
 const Register = () => {
+    const [name, setName] = useState('');
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
     const [error,setError] = useState('');
+    const [isLogin, setIsLogin] = useState(false);
 
     const auth = getAuth();
 
