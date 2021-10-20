@@ -1,4 +1,14 @@
 .cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+   
+}
+.doctor-image{
+    height: 300px;
+    width: 100%;
+
+}
+.card{
+    background-color: black;
+    
 }

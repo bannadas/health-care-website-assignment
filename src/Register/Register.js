@@ -24,6 +24,7 @@ const Register = () => {
     const handlePassChange = e =>{
       setPassword(e.target.value);
     }
+    
 
     const handleRegistration = e =>{
         e.preventDefault();
@@ -44,6 +45,7 @@ const Register = () => {
             setError('');
             setName();
             setUserName();
+            window.location.reload(true);
            
         })
         .catch(error => {
@@ -55,6 +57,7 @@ const Register = () => {
             .then(res =>{} )
         }
        
+        
     }
     return (
         <div>

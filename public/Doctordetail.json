@@ -1,8 +1,8 @@
 [
   {
-      "name":"PROF. (DR) M A AHBAB",
+      "name":"PROF. (DR) Rakhi",
       "qualification":"MBBS FCPS MD",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+      "image":"https://media.istockphoto.com/photos/portrait-of-middle-aged-asian-female-doctor-standing-in-hospital-picture-id1271328839?b=1&k=20&m=1271328839&s=170667a&w=0&h=SIMzwoe8eu43OoY4M3ElZCMxW9MgDbZbVzMhh4VY2zM=",
        
         "phone":"01726336453",
         "speciality":"Specialist in Medicine, Diabetes & Liver Diseases"
@@ -10,47 +10,47 @@
   {
       "name":"PROF. DR. FAISAL AHMED",
       "qualification":"MBBS, BCS(Health) FCPS (Medicine) ",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+      "image":"https://media.istockphoto.com/photos/team-of-doctors-and-nurses-in-hospital-picture-id1307543618?b=1&k=20&m=1307543618&s=170667a&w=0&h=hXpYmNYXnhdD36C-8taPQvdpM9Oj-woEdge8nvPrsZY=",
        
         "phone":"01726666453",
         "speciality":"Specalist in Medicine"
   },
   {
-      "name":"17laskar PROF. DR, MD. AMINUR RAHMAN ",
-      "qualification":"MBBS, DCM, MCPS (Medicine), MD (Cardiology",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+      "name":" PROF. DR, MD. ARSHI RAHMAN ",
+      "qualification":"MBBS, MD (Cardiology),NICVD",
+      "image":"https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZG9jdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        
         "phone":"01726338953",
         "speciality":"Cardiology (Heart) Specialist"
   },
   {
-      "name":"34ajay DR. AJOY KUMAR DUTTA",
+      "name":"DR. AJOY KUMAR DUTTA",
       "qualification":"MBBS, MD (Cardiology),NICVD",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+      "image":"https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGRvY3RvcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        
         "phone":"01826336453",
         "speciality":"Diabetes, Medicine & Heart Specialist"
   },
   {
-      "name":" PROF. DR. SYED ALAMGIR",
+      "name":"PROF. DR. SYEDA ALAMGIR",
       "qualification":"MBBS, MCPS (Medicine), MD (Gastroenterology)",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+      "image":"https://images.unsplash.com/photo-1591604021695-0c69b7c05981?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvY3RvcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
        
         "phone":"01926336453",
         "speciality":"Medicine, Liver & Gastroenterology Specialist "
   },
   {
-      "name":"20khaled DR. M.KHALED MAHMUD",
+      "name":"DR. M.KHALED MAHMUD",
       "qualification":"MBBS, MS(Surgery)",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+      "image":"https://media.istockphoto.com/photos/portrait-of-mature-male-doctor-wearing-white-coat-standing-in-picture-id1203995945?b=1&k=20&m=1203995945&s=170667a&w=0&h=W5pDpUgxdsBroe9aFgJUzR0Ess8xPUoST1ZjEvVRgEQ=",
        
         "phone":"01756336453",
         "speciality":"Geneal & Laparoscopic Surgeon"
   },
   {
-      "name":"taposh Dr. Tapos Singha",
+      "name":"Dr. Tapos Singha",
       "qualification":"MBBS, MS(Surgery)",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+      "image":"https://media.istockphoto.com/photos/male-east-indian-doctor-portrait-stock-photo-picture-id1192129265?b=1&k=20&m=1192129265&s=170667a&w=0&h=B0AWdvrTYt2xQwo3Kp-0PRt4gJf49nDlajEFE7tdKAw=",
        
         "phone":"01726336453",
         "speciality":"Geneal & Laparoscopic Surgeon"
@@ -58,17 +58,17 @@
         
   },
   {
-      "name":"salam PROF. DR. MD. ABDUS SALAM",
+      "name":"PROF. DR. MD. ABDUS SALAM",
       "qualification":"MBBS FCPS MD",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+      "image":"https://media.istockphoto.com/photos/portrait-of-mature-male-doctor-wearing-white-coat-standing-in-picture-id1203995945?b=1&k=20&m=1203995945&s=170667a&w=0&h=W5pDpUgxdsBroe9aFgJUzR0Ess8xPUoST1ZjEvVRgEQ=",
        
         "phone":"01776336453",
         "speciality":"Ophthalmologist"
   },
   {
-      "name":"sajjad  DR. S. M. SAJJADUL ",
+      "name":"DR. S. M. SAJJADUL ",
       "qualification":"MBBS, DO (DU),FICS",
-      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+      "image":"https://media.istockphoto.com/photos/never-fear-the-doctor-is-here-picture-id507954725?b=1&k=20&m=507954725&s=170667a&w=0&h=ZnkQOYzD7C0GlIHNt7vWd0Crybs_zI_Mp07AQcw9eok=",
        
         "phone":"01726336453",
         "speciality":"Ophthalmologist"
