@@ -8,7 +8,6 @@ const ServiceDetail = () => {
     const {serviceId} = useParams();
     console.log(serviceId)
    
-//    console.log(Service)
 const [details,setDetails] = useState({});
 
 // useEffect(() =>{
@@ -24,7 +23,6 @@ const [details,setDetails] = useState({});
 useEffect(()=>{
     fetch('Doctordetail.json')
     .then(res => res.json())
-   console.log(data.find(d=>d.id == 1));
      const serviceDetail = data.find(detail => detail.id == serviceId)
      setDetails(serviceDetail)
      console.log(details)

@@ -12,10 +12,10 @@ const Footer = () =>{
           <div className="row">
             <div className="col-md-5">
               <div className="left-container text-start">
-                <h1>We Care - Hospital and Clinic</h1>
+                <h1>We Care <br/> Hospital and Clinic</h1>
                 <p className="mt-3 ">
                   <p><AiFillPhone/> 12485799228</p>
-            <p><AiTwotoneMail/> anybodycandance@gmail.
+            <p><AiTwotoneMail/> wecare@gmail.
             com</p>
             <p><HiLocationMarker/> 194/A Kazla,Motihar,6204 <br/> Rajshahi,Bangladeshh
             </p>
@@ -24,7 +24,7 @@ const Footer = () =>{
                 
               </div>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-4">
               <div className="footer-menu-container">
                 <ul>
                   <li className="footer-menu">Home</li>
@@ -35,7 +35,7 @@ const Footer = () =>{
                 </ul>
               </div>
             </div>
-            <div className="col-md-5">
+            <div className="col-md-3">
               <h4>Opening hour</h4>
               <p>Saturday-Thursday</p>
               <p>09.00 AM - 11.00 PM</p>

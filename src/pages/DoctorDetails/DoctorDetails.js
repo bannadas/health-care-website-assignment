@@ -18,13 +18,13 @@ const DoctorDetails = () => {
             <div className="container cards">
                 {details.map(detail =>
                 
-                     <div className="card">
+                     <div className="doctor-card">
                          <img className="doctor-image" src={detail.image} alt="" />
                        <h2> {detail.name}</h2>
                        <p className="text-muted">{detail.qualification}</p>
                        <p>{detail.phone}</p>
                        <p>{detail.speciality}</p>
-                       
+                       <button className="get-appointment-btn">Get appointment</button>
                      </div>
                      )}
             </div>

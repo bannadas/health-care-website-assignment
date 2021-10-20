@@ -33,7 +33,7 @@ const NavigationBar = () => {
                     <Nav.Link as={HashLink} to="/about">About Us</Nav.Link>
                     <Nav.Link as={HashLink} to="/doctordetails">Doctor Details</Nav.Link>
                    
-                    {user.email && <span style={{ color: 'black'}}>Hello  {user.displayName}  Logged in with Email id: {user.email} </span>}
+                    {user.email && <span style={{ color: 'black'}}>Hello  {user.displayName}         Email id: {user.email} </span>}
                 {
                     user.email ?
                         <button className="log-out-btn" onClick={logOut}>log out</button>
