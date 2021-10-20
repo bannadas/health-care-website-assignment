@@ -5,6 +5,7 @@ import NavigationBar from '../pages/NavigationBar/NavigationBar';
 import {AiFillPhone,AiTwotoneMail} from 'react-icons/ai';
 import {HiLocationMarker} from 'react-icons/hi';
 import './About.css'
+import Footer from '../pages/Footer/Footer';
 
 const About = () => {
     return (
@@ -100,6 +101,7 @@ const About = () => {
     </div>
             </div>
             </div>
+            <Footer></Footer>
         </div>
         
     );

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavigationBar from '../pages/NavigationBar/NavigationBar';
+import {FaUserAlt} from 'react-icons/fa';
 import { getAuth, createUserWithEmailAndPassword,updateProfile} from "firebase/auth";
 
 
@@ -67,20 +68,23 @@ const Register = () => {
         <div className="register-form">
            
             <div>
-                <h2>Register: Create Account</h2>
+            <div className="user-icon">
+                <FaUserAlt/>
+                </div>
+                <h2 className="register-text">Register: Create Account</h2>
              <form onSubmit={handleRegistration}>
-                <input onBlur={handleNameChange} type="text" name="" id="" placeholder="Your Name" />
+                <input onBlur={handleNameChange} type="text" name="" id="" placeholder="Your Name" className="name-field" />
                 <br />
-                    <input onBlur={handleEmailChange} type="email" name="" id="" placeholder="Your Email" />
+                    <input onBlur={handleEmailChange} type="email" name="" id="" placeholder="Your Email" className="email-field my-1" />
                     <br />
-                    <input onBlur={handlePassChange} type="password" name="" id="" placeholder="Your Password" />
+                    <input onBlur={handlePassChange} type="password" name="" id="" placeholder="Your Password" className="pass-field"/>
                     <br />
                     <div className="mb-3 text-danger">{error}</div>
                     <br/>
-                    <input type="submit" value="Submit" />
+                    <input className="submit-button" type="submit" value="Submit" />
                 </form>
-                <p>Already have an account? <Link to="/login">Login</Link></p>
-                <div>----------or-------------</div>
+                <p className="my-2">Already have an account? <Link to="/login">Login</Link></p>
+                
                 
             </div>
         </div>

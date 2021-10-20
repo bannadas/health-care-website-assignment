@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link,useLocation,useHistory } from 'react-router-dom';
 import NavigationBar from '../pages/NavigationBar/NavigationBar';
+import {FcGoogle} from 'react-icons/fc';
+import {FaUserAlt} from 'react-icons/fa';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import './Login.css'
 import useAuth from '../hooks/useAuth';
@@ -61,19 +63,22 @@ const Login = () => {
         <div className="login-form">
            
             <div>
-                <h2>LogIn</h2>
+                <div className="user-icon">
+                <FaUserAlt/>
+                </div>
+                <h2 className="login-text">Log In</h2>
                 <form onSubmit={handleLogin}>
-                    <input onBlur={handleEmailChange} type="email" name="" id="" placeholder="Your Email" />
+                    <input onBlur={handleEmailChange} type="email" name="" id="" placeholder="Your Email" className="email-field my-1" />
                     <br />
-                    <input onBlur={handlePassChange} type="password" name="" id="" placeholder="Your Password" />
+                    <input onBlur={handlePassChange} type="password" name="" id="" placeholder="Your Password" className="pass-field" />
                     <br />
                     <div className="mb-3 text-danger">{error}</div>
                     <br/>
-                    <input type="submit" value="Submit" />
+                    <input className="submit-button" type="submit" value="Submit" />
                 </form>
-                <p>New Here?<Link to="/register">Create an account</Link></p>
+                <p className="my-2">New Here?<Link to="/register">  Create an account</Link></p>
                 <div>----------or-------------</div>
-                <button onClick={handleGoogleLogin} className="btn-regular">Google Sign In</button>
+                <button onClick={handleGoogleLogin} className="google-sign-in-btn">  <span className="google-icon"><FcGoogle/></span> Google Sign In</button>
             </div>
         </div>
     </div>

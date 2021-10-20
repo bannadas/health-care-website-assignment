@@ -1,7 +1,7 @@
-.cards{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-   
+
+
+.heading-text{
+    color:black;
 }
 .doctor-image{
     height: 300px;
@@ -43,4 +43,15 @@
     overflow: hidden;
     transform: scale(1.2);
     transition: transform 1s;
+}
+
+@media only screen and (max-width: 688px){
+
+}
+@media only screen and (min-width: 689px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       
+    }
 }

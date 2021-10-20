@@ -1,5 +1,32 @@
+
+
+.login-text{
+    color: tomato;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
 .login-form{
     display: flex;
     justify-content: center;
     align-items: center;
+       
+}
+.email-field{
+    width: 400px;
+}
+.pass-field{
+    width: 400px;
+}
+.google-sign-in-btn{
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+.user-icon{
+    font-size: 80px;
+    text-align: center;
+}
+.google-icon{
+    font-size: 20px;
 }

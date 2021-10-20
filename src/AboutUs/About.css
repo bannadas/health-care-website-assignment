@@ -93,6 +93,7 @@
     padding: 10px 15px;
     margin-top: 15px;
     color: white;
+    margin-bottom: 10px;
    }
    
    
@@ -115,5 +116,14 @@
         margin-top: 40px;
     }
     
+    .submit-button{
+        background-color:blue;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 5px 15px;
+        margin-top: 15px;
+        color: white;
+       
+       }
   }
   

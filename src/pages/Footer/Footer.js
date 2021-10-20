@@ -10,7 +10,7 @@ const Footer = () =>{
       <div className="footer-container">
         <div className="container">
           <div className="row">
-            <div className="col-md-5">
+            <div className="col-md-5 m-2">
               <div className="left-container text-start">
                 <h1>We Care <br/> Hospital and Clinic</h1>
                 <p className="mt-3 ">
@@ -24,7 +24,7 @@ const Footer = () =>{
                 
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 m-3">
               <div className="footer-menu-container">
                 <ul>
                   <li className="footer-menu">Home</li>
@@ -35,7 +35,7 @@ const Footer = () =>{
                 </ul>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 m-3">
               <h4>Opening hour</h4>
               <p>Saturday-Thursday</p>
               <p>09.00 AM - 11.00 PM</p>

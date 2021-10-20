@@ -13,7 +13,7 @@ const DoctorDetails = () => {
         <div>
             <NavigationBar></NavigationBar>
             <div>
-            <h1 className="text-center">All Our Specialist Doctors</h1>
+            <h1 className="text-center my-3 heading-text">All Our Specialist Doctors</h1>
             </div>
             <div className="container cards">
                 {details.map(detail =>
