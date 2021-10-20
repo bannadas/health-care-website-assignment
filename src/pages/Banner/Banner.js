@@ -16,7 +16,7 @@ const Banner = () => {
             <button className="get-appoinment-btn">Get Appoinment</button>
             </div>
              
-                <img className="banner-image" src='http://html.ary-themes.com/meditab/images/main-slider/image-1.png' alt="" />
+                <img className="banner-image" src={bannerImage} alt="" />
             
             </div>
             </div>
