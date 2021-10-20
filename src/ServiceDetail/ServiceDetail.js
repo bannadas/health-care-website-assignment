@@ -4,6 +4,7 @@ import './ServiceDetail.css'
 
 import data from '../Data/Detail.json'
 import NavigationBar from '../pages/NavigationBar/NavigationBar';
+import Footer from '../pages/Footer/Footer';
 
 const ServiceDetail = () => {
     const {serviceId} = useParams();
@@ -35,6 +36,7 @@ useEffect(()=>{
             <button className="book-appointment-btn">Book a doctor's appointment</button>
             
             </div>
+            <Footer></Footer>
         </div>
     );
 };

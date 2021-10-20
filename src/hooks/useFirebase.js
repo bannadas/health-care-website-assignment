@@ -11,16 +11,16 @@ const useFirebase = () => {
 
     const signInUsingGoogle = () => {
         return signInWithPopup(auth, googleProvider)
-           
+        .finally(() => { setLoading(false) });
     }
 
     const logOut = () => {
-        
+        setLoading(true);
         signOut(auth)
             .then(() => {
                 setUser({})
             })
-           
+            .finally(() => setLoading(false))
     }
 
     // observer
@@ -32,7 +32,7 @@ const useFirebase = () => {
             else {
                 setUser({});
             }
-           
+            setLoading(false);
         });
         return () => unsubscribe;
     }, [])
