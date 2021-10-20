@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NavigationBar from '../pages/NavigationBar/NavigationBar';
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword,updateProfile} from "firebase/auth";
 
 
 import './Register.css'
@@ -11,10 +11,13 @@ const Register = () => {
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
     const [error,setError] = useState('');
-    const [isLogin, setIsLogin] = useState(false);
+    
 
     const auth = getAuth();
 
+    const handleNameChange = e => {
+        setName(e.target.value);
+      }
     const handleEmailChange = e =>{
        setEmail(e.target.value);
     }
@@ -24,7 +27,7 @@ const Register = () => {
 
     const handleRegistration = e =>{
         e.preventDefault();
-        console.log(email,password);
+        console.log(email,password,name);
         if(password.length < 6){
             setError('password must be at least 6 characters long');
             return;
@@ -39,10 +42,18 @@ const Register = () => {
             const user = result.user;
             console.log(user);
             setError('');
+            setName();
+            setUserName();
+           
         })
         .catch(error => {
             setError(error.message)
         })
+
+        const setUserName = () =>{
+            updateProfile(auth.currentUser,{displayName:name})
+            .then(res =>{} )
+        }
        
     }
     return (
@@ -54,7 +65,9 @@ const Register = () => {
            
             <div>
                 <h2>Register: Create Account</h2>
-                <form onSubmit={handleRegistration}>
+             <form onSubmit={handleRegistration}>
+                <input onBlur={handleNameChange} type="text" name="" id="" placeholder="Your Name" />
+                <br />
                     <input onBlur={handleEmailChange} type="email" name="" id="" placeholder="Your Email" />
                     <br />
                     <input onBlur={handlePassChange} type="password" name="" id="" placeholder="Your Password" />
